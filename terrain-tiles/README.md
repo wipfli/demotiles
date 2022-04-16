@@ -6,22 +6,22 @@ Contains terrain tiles in the N047E011 region. These tiles are made to be used w
 
 ## How to use the demo Terrain Tiles
 
-1.) Include the terrain tiles in your maps list of sources
-```
-terrain: {
-	type: 'raster-dem',
-	url: 'https://demotiles.maplibre.org/terrain-tiles/tiles.json',
-	tileSize: 256
-},
-```
-2.) Use the terrain tile source for 3d terrain in you style
+1.) Include the terrain tiles in your maps list of sources.
+
+    terrain: {
+    	type: 'raster-dem',
+    	url: 'https://demotiles.maplibre.org/terrain-tiles/tiles.json',
+    	tileSize: 256
+    },
+
+2.) Use the terrain tile source for 3d terrain in you style.
 
     terrain: {
     	source:  'terrain',
     	exaggeration:  1
     }
 
-3.) Use the terrain tile source for hillshade
+3.) Use the terrain tile source for hillshade.
 
     {
     	id:  'hills',
@@ -30,7 +30,8 @@ terrain: {
     	layout: {'visibility':  'visible'},
     	paint: {'hillshade-exaggeration':  0.33}
     }
-4.) With all of these combined, the style should look something like this
+  
+4.) With all of these combined, the style should look something like this.
  
 
     style: {
