@@ -1,0 +1,27 @@
+{
+    "tiles": [
+        "https://demotiles.maplibre.org/debug-tiles/number-hillshade/{z}.png"
+    ],
+    "name": "number-hillshade",
+    "format": "png",
+    "basename": "number-hillshade",
+    "id": "number-hillshade",
+    "description": "number-hillshade",
+    "version": "1",
+    "type": "baselayer",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "tileSize": 256,
+    "bounds": [
+        -180,
+        -85.05112877980659,
+        180,
+        85.0511287798066
+    ],
+    "center": [
+        0,
+        0,
+        9
+    ],
+    "tilejson": "2.0.0"
+}

@@ -7,6 +7,7 @@ You can see the live demos at the following links. You can also access the style
 | [MapLibre World](#maplibre-world-demo-map) | https://demotiles.maplibre.org | https://demotiles.maplibre.org/style.json
 | [OpenMapTiles](tiles-omt),</br>centered around Innsbruck, Austria | https://demotiles.maplibre.org/tiles-omt | https://demotiles.maplibre.org/styles/osm-bright-gl-style/style.json
 | [Terrain](terrain-tiles),</br>centered around Innsbruck, Austria | https://demotiles.maplibre.org/terrain-tiles | https://demotiles.maplibre.org/styles/osm-bright-gl-terrain/style.json
+| [Debug](debug-tiles),</br>demonstrating tile zoom variation | https://demotiles.maplibre.org/debug-tiles | 
 
 ## MapLibre World demo map
 
@@ -54,10 +55,22 @@ Design is heavily inspired by the the Geography Class map style from [klokantech
 
 The map labels are using the Open Sans SemiBold font.
 
+## Maplibre Debug Tiles
+
+The [number](debug-tiles/number) tiles contain a black number indicating the tile's zoom level on a colored background, with a black border. These tiles can be used to investigate which zoom levels are loaded.
+
+![0](debug-tiles/number/0.png)![22](debug-tiles/number/22.png)
+
+The [number-hillshade](debug-tiles/number-hillshade) tiles render the zoom level as an elevation that displays the number when used as a hillshade.
+
+The [terrain-ruffles](debug-tiles/terrain-ruffles) tiles contain a ruffle around the border, which helps visualize bouundaries between loaded raster tiles.
+
 ## Contributors
 
 the [MapLibre World](#maplibre-world-demo-map) demo was kindly provided by the [MapTiler](https://www.maptiler.com/) team ([@klokan](https://github.com/klokan), [@nbozon](https://github.com/nbozon), [@petr-pokorny-1](https://github.com/petr-pokorny-1), [@tomasklanica](https://github.com/tomasklanica)). 
 
-the [Terrain](terrain-tiles) and [OpenMapTiles](tiles-omt) demos were provided by [@acalcutt](https://github.com/acalcutt) with styles based on [OSM Bright](https://github.com/openmaptiles/osm-bright-gl-style)
+the [Terrain](terrain-tiles) and [OpenMapTiles](tiles-omt) demos were provided by [@acalcutt](https://github.com/acalcutt) with styles based on [OSM Bright](https://github.com/openmaptiles/osm-bright-gl-style).
 
 The font PBFs were generated using the scripts and source fonts from https://github.com/openmaptiles/fonts.
+
+The debug tiles were provided by [@NathanMOlson](https://github.com/NathanMOlson).
